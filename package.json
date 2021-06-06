@@ -1,0 +1,26 @@
+{
+  "name": "the-floor",
+  "version": "1.0.0",
+  "description": "The Floor Assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "ng serve client",
+    "dev": "concurrently \"npm run server\" \"ng serve client\""
+  },
+  "author": "Oleksii Kovalov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7",
+    "shortid": "^2.2.16"
+  }
+}
